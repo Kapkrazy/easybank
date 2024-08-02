@@ -56,7 +56,6 @@ margin-bottom: 1rem;
     grid-template-areas: 'one' 'two';
     grid-template-columns: 1fr;
     grid-template-rows: repeat(2, 50%);
-    border: 2px solid;
     height:auto;
     
     
