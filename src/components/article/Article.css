@@ -1,0 +1,40 @@
+.article-card-wrapper{
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    max-height: 600px;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    
+}
+
+.card-content{
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    
+}
+
+.article-card-wrapper .author{
+    font-size: 14px;
+    font-weight: 200;
+}
+
+.article-card-wrapper .title{
+    font-weight: 300;
+}
+
+.article-card-wrapper .content{
+    font-size: 1rem;
+    
+    
+}
+
+.article-card-wrapper img{
+    width: 300px;
+    height: 200px;
+    display: block;
+    margin: 0 auto;
+    object-fit: cover;
+}

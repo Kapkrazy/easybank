@@ -1,0 +1,23 @@
+.wrapper-hwp{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.wrapper-hwp p{
+    width: 50%;
+    font-size: 1rem;
+}
+.wrapper-hwp h2{
+    font-weight: 300;
+}
+
+@media (max-width:900px) {
+    .wrapper-hwp{
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+
+    
+}

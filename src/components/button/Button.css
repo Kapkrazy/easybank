@@ -1,0 +1,17 @@
+button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem 1.5rem;
+    border-radius: 1.5rem;
+    border: none;
+    background-image: linear-gradient(to right, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
+    color: white;
+    cursor: pointer;
+    
+}
+
+button:hover{
+    background-image: linear-gradient(to right, hsl(136, 100%, 79%), hsl(192, 100%, 85%)) ;
+}
+
