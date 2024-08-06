@@ -20,7 +20,7 @@
   right: 0;
   width: 50%;
   overflow: hidden;
- z-index: 0;
+  z-index: 0;
 }
 
 .hero-image img {
@@ -28,40 +28,35 @@
   height: auto;
   position: relative;
   right: -20%;
- 
-  
 }
 
 .hero-text {
   width: 50%;
   padding: 5.5rem;
   display: block;
-  
 }
 
-.hero-header{
-font-size: 3rem;
-font-weight: 400;
-margin-bottom: 1rem;
+.hero-header {
+  font-size: 3rem;
+  font-weight: 400;
+  margin-bottom: 1rem;
 }
 
-.hero-sub{
-    color: rgb(163, 162, 162);
-    margin-bottom: 1rem;
+.hero-sub {
+  color: rgb(163, 162, 162);
+  margin-bottom: 1rem;
 }
 
-@media (max-width:900px) {
-  .h-wrapper{
+@media (max-width: 900px) {
+  .h-wrapper {
     display: grid;
-    grid-template-areas: 'one' 'two';
+    grid-template-areas: "one" "two";
     grid-template-columns: 1fr;
     grid-template-rows: repeat(2, 50%);
-    height:auto;
-    
-    
+    height: auto;
   }
 
-  .hero-text{
+  .hero-text {
     grid-area: two;
     width: 100%;
     padding: 3rem;
@@ -73,31 +68,24 @@ margin-bottom: 1rem;
     flex-direction: column;
   }
 
-  .hero-image{
+  .hero-image {
     display: grid;
     justify-content: center;
     align-items: center;
     grid-area: one;
-    position:relative;
-   top: -25%;
-   margin: 0 auto;
+    position: relative;
+    top: -25%;
+    margin: 0 auto;
     width: 100%;
-    background-image: url('../../assets/images/bg-intro-mobile.svg');
+    background-image: url("../../assets/images/bg-intro-mobile.svg");
     background-repeat: no-repeat;
     background-size: 800px;
-    
-    
-    
   }
 
-  .hero-image img{
-
-   align-self: center;
-   display: block;
-   right: 0;
-   padding: 2rem;
+  .hero-image img {
+    align-self: center;
+    display: block;
+    right: 0;
+    padding: 2rem;
   }
-
-  
 }
-
